@@ -1,0 +1,33 @@
+/* Navbar container */
+.navbar {
+  background-color: #1e1f1d;
+  padding: 1rem 2rem;
+}
+
+/* Links list */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+/* Link styles */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+/* Active link */
+.nav-links a.active {
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 2px;
+}
+
+
