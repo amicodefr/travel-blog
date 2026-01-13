@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DestinationCard from "../components/DestinationCard";
-import "./Destinations.css";
+
 
 export default function Favorites() {
   const [favorites, setFavorites] = useState([]);

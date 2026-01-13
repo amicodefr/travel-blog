@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Accordion } from "../../components/accordion/Accordion";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
         The goal of this project is to practice working with React components,
         routing, hooks, and UI libraries.
       </p>
-
+     <Accordion/>
       <h2>✨ Features</h2>
       <ul>
         <li>Browse travel destinations from different continents</li>

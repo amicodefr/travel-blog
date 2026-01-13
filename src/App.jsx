@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Destination from "./pages/Destinations";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Destination from "./pages/destinations/Destinations";
 import Nav from "./components/Navbar";
 import Favorites from "./pages/Favorites";
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { destinations } from "../data/destinations";
+import { destinations } from "../../data/destinations";
 import "./Destinations.css";
-import DestinationCard from "../components/DestinationCard";
+import DestinationCard from "../../components/DestinationCard";
 
 export default function Destinations() {
   const [continentFilter, setContinentFilter] = useState("All");
